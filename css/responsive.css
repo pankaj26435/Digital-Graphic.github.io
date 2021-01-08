@@ -1,0 +1,208 @@
+@media (max-width:1366px) {
+    .nav_sec:before {
+        width: 10%;
+    }       
+}
+
+
+@media (max-width:1200px) {
+    .container {
+        width: 96%;
+        margin: 0 auto;
+        padding: 0;
+    }
+    .navbar-brand>img {
+        width: 150px;
+    }        
+    .top-bar a {
+        padding: 5px 10px;     
+    }
+    .top-bar ul {     
+        margin-top: 10px;
+    }
+    .nav_sec .navbar-default .navbar-nav>li>a {
+        line-height: 1;
+        padding-top: 10px;
+        padding-bottom: 10px;;
+    }            
+}
+
+
+/************ Main **************/
+
+@media (max-width: 991px) {    
+    .nav_sec::before {
+        display: none;
+    }
+    .navbar-right {
+        margin: 0;
+    }    
+    .nav_sec .navbar-default .navbar-nav>li {
+        margin-left: 15px;
+    }
+    .nav_sec .navbar-default .navbar-nav>li>a {
+        font-size: 13px;
+    }    
+    .footer_detail {
+        padding: 35px 0;
+    }    
+    h3.service-title {
+        position: relative;        
+        margin-top: 0;
+        text-align: center;
+        z-index: 1;
+    }        
+    .footer_detail:after { display: none; }        
+    .nav_sec .navbar-default .navbar-nav>li:last-child>a:before {
+        display: none;
+    }
+    .nav_sec .navbar-default .navbar-nav>li:last-child>a {
+        padding-left: 0;
+    }
+    .copyright {
+        position: relative;
+    }
+    .service-box {
+        max-height: fit-content;
+        height: auto;
+        margin-bottom: 20px;
+    }
+    .left-bg:after {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(0,0,0,0.5);
+    }     
+}
+
+@media (max-width: 767px) {
+    html {
+        -webkit-text-size-adjust: none;
+    }
+    .top-bar { display: none;}
+    .container {
+        width: 93%;
+        margin: 0 auto;
+        padding: 0;
+    }
+    .navbar-default .navbar-toggle {
+        margin: 35px 0 0 0;
+    }
+    .navbar-default .navbar-toggle .icon-bar {
+        background-color: #fff;
+        width: 30px;
+        height: 4px;
+    }
+    .navbar-toggle {
+        border: none;
+        background: transparent !important;
+        margin-bottom: 0;
+    }
+    .navbar-toggle:hover {
+        background: transparent !important;
+    }
+    .navbar-toggle .icon-bar {
+        width: 22px;
+        transition: all 0.2s;
+    }
+    .navbar-toggle .top-bar {
+        transform: rotate(45deg);
+        transform-origin: 10% 10%;
+    }
+    .navbar-toggle .middle-bar {
+        opacity: 0;
+    }
+    .navbar-toggle .bottom-bar {
+        transform: rotate(-45deg);
+        transform-origin: 10% 90%;
+    }
+    .navbar-toggle.collapsed .top-bar {
+        transform: rotate(0);
+    }
+    .navbar-toggle.collapsed .middle-bar {
+        opacity: 1;
+    }
+    .navbar-toggle.collapsed .bottom-bar {
+        transform: rotate(0);
+    }
+    .nav_sec .navbar-nav {
+        float: none;
+        position: relative;
+    }
+    .left-bg img {
+        margin-left: 0;
+    }        
+    .nav_sec .navbar-default .navbar-nav>li {
+        margin: 1px 0;
+    }
+    .nav_sec .navbar-default .navbar-nav>li>a {
+        padding: 10px 0;
+    }
+    .nav_sec {
+        padding: 10px 0;
+    }
+    .navbar-brand>img {
+        width: 200px;
+    } 
+    .our-clients {
+        margin-top: 0px;
+    }
+    .sign-board{
+        margin-top: 0;
+        margin-bottom: 35px;
+    }
+    .our-works {     
+        padding: 35px 0;
+    }
+    html {
+        font-size: .7px;
+    }
+    .inner_banner {
+        padding: 70px 0px;
+    }   
+    .our-works .row {
+        display: block;        
+    }     
+    h2.site-title {      
+        font-size: 24px;
+        line-height: 30px;        
+    }
+    .site-title span {     
+        line-height: 32px;        
+        font-size: 24px;        
+    }
+}
+
+
+/************ iphone **************/
+
+@media (max-width:600px) {
+    html {
+        -webkit-text-size-adjust: none;
+    }
+    .container {
+        width: 91%;
+    }    
+}
+
+@media (max-width:350px) {
+    h2.site-title {
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .site-title span {
+        line-height: 26px;
+        font-size: 18px;
+    }
+    .sign-board ul li {
+        font-size: 14px;     
+        padding-left: 20px;
+        
+    }
+    .sign-board h2.site-title {     
+        padding: 10px 0 10px 20px;        
+    }
+}
